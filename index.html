@@ -119,15 +119,15 @@
               <!--                </a>-->
               <!--              </span>-->
               <!-- Video Link. -->
-              <!--              <span class="link-block">-->
-              <!--                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"-->
-              <!--                   class="external-link button is-normal is-rounded is-dark">-->
-              <!--                  <span class="icon">-->
-              <!--                      <i class="fab fa-youtube"></i>-->
-              <!--                  </span>-->
-              <!--                  <span>Video</span>-->
-              <!--                </a>-->
-              <!--              </span>-->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=V_EYQJO1W_U"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/Kami-code/dexart-sim"
@@ -135,7 +135,16 @@
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code(Simulation)</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/Kami-code/dexart-algo"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code(Reinforcement Learning)</span>
                   </a>
               </span>
             </div>
@@ -151,7 +160,9 @@
     <!-- Paper video. -->
     <div class="columns is-centered ">
       <div class="column is-four-fifths">
-        <img src="static/images/teaser.png">
+        <div class="teaser-video">
+          <video src="static/videos/teaser.mp4" autoplay muted loop playsinline></video>
+        </div>
         <p>
           We propose <b>DexArt</b>, a task suite of <b>Dex</b>terous manipulation with <b>Art</b>iculated object using point cloud observation.
           We experiment with extensive benchmark methods that learn category-level manipulation policy on seen objects. We evaluate the
@@ -164,7 +175,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <video src="static/videos/DexArtVideo.mp4" controls></video>
+          <iframe src="https://www.youtube.com/watch?v=V_EYQJO1W_U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
         </div>
       </div>
     </div>
@@ -325,10 +336,12 @@
 </section>
 
 
+
+
 <section class="hero  is-small">
   <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
-      <h2 class="title is-3">Open the Lids of Different Toilets</h2>
+      <h2 class="title is-3">Lift Different Buckets</h2>
     </div>
   </div>
   <div class="hero-body">
@@ -336,25 +349,25 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toilet1.mp4"
+            <source src="./static/videos/bucket1.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-chair-tp">
           <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toilet2.mp4"
+            <source src="./static/videos/bucket2.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-shiba">
           <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toilet3.mp4"
+            <source src="./static/videos/bucket3.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toilet4.mp4"
+            <source src="./static/videos/bucket4.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -363,6 +376,55 @@
   </div>
 </section>
 
+<section class="hero  is-small">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Segmentation Visualization during RL</h2>
+    </div>
+  </div>
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/seg1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/seg2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/seg3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/seg4.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/seg5.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/seg6.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="section">
   <div class="container is-max-desktop">
