@@ -25,7 +25,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <script defer="" src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
+<!--  <script src="./static/js/bulma-carousel.min.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
   <script src="./static/js/index.js"></script>
   <link href="offcanvas.css" rel="stylesheet">
 </head>
@@ -162,6 +163,9 @@
       <div class="column is-four-fifths">
         <div class="teaser-video">
           <video src="static/videos/teaser.mp4" autoplay muted loop playsinline></video>
+        </div>
+        <div class="zoomout-video">
+          <video src="static/videos/zoomout.mp4" autoplay muted loop playsinline></video>
         </div>
         <p>
           We propose <b>DexArt</b>, a task suite of <b>Dex</b>terous manipulation with <b>Art</b>iculated object using point cloud observation.
@@ -496,6 +500,13 @@
 
 
 
-
+<script>
+  bulmaCarousel.attach('#results-carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 2,
+    infinite: true,
+    autoplay: true,
+  });
+</script>
 </body>
 </html>
