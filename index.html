@@ -53,11 +53,26 @@
           More Research
         </a>
         <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://touchdexterity.github.io/">
+            Rotating without Seeing
+          </a>
+          <a class="navbar-item" href="https://jianglongye.com/cgf/">
+            Continuous Grasping Function
+          </a>
           <a class="navbar-item" href="https://yzqin.github.io/dexpoint/">
             DexPoint
           </a>
+          <a class="navbar-item" href="https://kristery.github.io/ILAD/">
+            DexAffordance
+          </a>
           <a class="navbar-item" href="https://yzqin.github.io/dexmv/">
             DexMV
+          </a>
+          <a class="navbar-item" href="https://yzqin.github.io/dex-teleop-imitation/">
+            DexTeleopImitation
+          </a>
+          <a class="navbar-item" href="https://people.eecs.berkeley.edu/~ilija/soil/">
+            SOIL
           </a>
         </div>
       </div>
@@ -423,55 +438,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">Robustness Experiments</h2>
-    <div class="content has-text-justified is-centered">
-      <p class="has-text-centered">
-        We experiment with the viewpoint change of camera in Laptop task to evaluate the robustness of policy based on PointNet and ResNet-18.
-      </p>
-    </div>
-    <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
-      <div class="column has-text-centered is-one-third">
-        <video autoplay="" muted="" loop="" playsinline="" width="100%">
-          <source src="static/videos/3Drobustness1.mp4" type="video/mp4">
-        </video>
-
-      </div>
-      <div class="column is-one-fifth"></div>
-      <div class="column has-text-centered is-one-third">
-        <video autoplay="" muted="" loop="" playsinline="" width="100%">
-          <source src="static/videos/3Drobustness2.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-    <p class="has-text-centered">
-      (i) PointNet policy shows great robustness against viewpoint change.
-    </p>
-    </div>
-
-  <div class="container is-max-desktop">
-    <div class="content has-text-justified is-centered">
-    </div>
-    <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
-      <div class="column has-text-centered is-one-third">
-        <video autoplay="" muted="" loop="" playsinline="" width="100%">
-          <source src="static/videos/2Drobustness1.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="column is-one-fifth"></div>
-      <div class="column has-text-centered is-one-third">
-        <video autoplay="" muted="" loop="" playsinline="" width="100%">
-          <source src="static/videos/2Drobustness2.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-    <p class="has-text-centered">
-      (ii) Success rate of the ResNet-18 policy suffers dramatically drop under novel viewpoints.
-    </p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Our Findings</h2>
     <div class="content has-text-justified is-centered">
       <p class="has-text-centered">
@@ -522,6 +488,54 @@
 
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Robustness Experiments</h2>
+    <div class="content has-text-justified is-centered">
+      <p class="has-text-centered">
+        We experiment with the viewpoint change of camera in Laptop task to evaluate the robustness of policy based on PointNet and ResNet-18.
+      </p>
+    </div>
+    <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
+      <div class="column has-text-centered is-one-third">
+        <video autoplay="" muted="" loop="" playsinline="" width="100%">
+          <source src="static/videos/3Drobustness1.mp4" type="video/mp4">
+        </video>
+
+      </div>
+      <div class="column is-one-fifth"></div>
+      <div class="column has-text-centered is-one-third">
+        <video autoplay="" muted="" loop="" playsinline="" width="100%">
+          <source src="static/videos/3Drobustness2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <p class="has-text-centered">
+      (i) PointNet policy shows great robustness against viewpoint change.
+    </p>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="content has-text-justified is-centered">
+    </div>
+    <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
+      <div class="column has-text-centered is-one-third">
+        <video autoplay="" muted="" loop="" playsinline="" width="100%">
+          <source src="static/videos/2Drobustness1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="column is-one-fifth"></div>
+      <div class="column has-text-centered is-one-third">
+        <video autoplay="" muted="" loop="" playsinline="" width="100%">
+          <source src="static/videos/2Drobustness2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <p class="has-text-centered">
+      (ii) Success rate of the ResNet-18 policy suffers dramatically drop under novel viewpoints.
+    </p>
+  </div>
+</section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
